@@ -1,0 +1,17 @@
+@import 'src/styles/const.scss';
+
+.form-el {
+  z-index: 1;
+  &-active, &:hover {
+    z-index: 2;
+  }
+}
+
+.fd-form-item {
+  box-sizing: border-box;
+}
+
+.fd-form-item-inner {
+  box-sizing: border-box;
+  overflow: auto;
+}

@@ -1,0 +1,21 @@
+@import 'src/styles/const.scss';
+
+.fd-select .el-select {
+  width: 100%;
+}
+
+.fd-cascade-item {
+  margin-right: 8px;
+}
+
+.fd-cascade-mobile {
+  display: block !important;
+  .fd-cascade-item {
+    display: block;
+    margin-bottom: 8px;
+    margin-right: 0;
+  }
+  .el-select {
+    width: 100%;
+  }
+}

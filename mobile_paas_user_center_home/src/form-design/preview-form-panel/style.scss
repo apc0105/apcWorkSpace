@@ -1,0 +1,68 @@
+@import 'src/styles/const.scss';
+
+.design-form-preview {
+  margin:0 auto;
+  .el-form-item {
+    margin: 11px 0 !important;
+    &.fd-form-layout,
+    &.fd-form-grid,
+    &.fd-form-table {
+      margin: 0 !important;
+    }
+    .el-input, .el-textarea, .el-input-number {
+      width: 100%;
+      min-width: 0px;
+      max-width: 1000px;
+    }
+    .el-input-number .el-input {
+      width: 100%;
+      min-width: 0px;
+    }
+  }
+
+  .el-form-item__label {
+    padding-left: 12px;
+  }
+
+  .el-form-item__content {
+    display: block;
+  }
+  &-pc {
+    .form-el {
+      & > .el-form-item {
+        width: 100% !important;
+        display: inline-block !important;
+      }
+    }
+  }
+  &-mobile {
+    .form-el {
+      & > .el-form-item {
+        width: 100% !important;
+        display: inline-block !important;
+      }
+    }
+  }
+}
+
+
+.form-item-label {
+  &-none {
+    & > .el-form-item__content {
+      margin-left: 0px !important;
+    }
+    & > .el-form-item__label {
+      display: none;
+    }
+  }
+  &-top {
+    & > .el-form-item__label {
+      display: block;
+      width: 100% !important;
+      text-align: left;
+    }
+    & > .el-form-item__content {
+      margin-left: 0px !important;
+    }
+  }
+}

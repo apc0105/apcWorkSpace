@@ -1,0 +1,21 @@
+@import 'src/styles/const.scss';
+
+.form-props-option-table-btns {
+  text-align: center;
+  padding: 8px;
+}
+
+.form-props-option-labels {
+  cursor: pointer;
+}
+
+.el-table tbody .form-props-option-table-cell {
+  vertical-align: top;
+  padding: 0 !important;
+  margin: 0 !important;
+  & .cell {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+

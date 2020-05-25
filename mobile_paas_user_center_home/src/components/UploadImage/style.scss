@@ -1,0 +1,83 @@
+@import 'src/styles/const.scss';
+
+.upload-box {
+  &-square {
+    position: relative;
+    background: #ffffff;
+    border: 1px dashed $border-color;
+    height: 130px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+
+    &:hover {
+      border-color: #409EFF;
+    }
+
+    .el-icon-plus {
+      font-size: 48px;
+      color: #999999;
+      line-height: 128px;
+      width: 128px;
+    }
+    .upload-box-img {
+      max-width: 128px;
+      max-height: 128px;
+      vertical-align: bottom;
+    }
+    &-input {
+      padding-left: 16px;
+      textarea {
+        height: 95px;
+        width: 450px !important;
+      }
+    }
+  }
+  &-rectangle {
+    background: #ffffff;
+    position: relative;
+    border: 1px dashed $border-color;
+    height: 128px;
+    //margin-bottom: 8px;
+
+    &:hover {
+      border-color: #409EFF;
+    }
+
+    .el-icon-plus {
+      font-size: 48px;
+      color: #999999;
+      line-height: 128px;
+      width: 256px;
+    }
+
+    .upload-box-img {
+      max-width: 256px;
+      max-height: 130px;
+    }
+
+    &-input {
+      padding-left: 16px;
+      textarea {
+        height: 95px;
+        width: 320px !important;
+      }
+    }
+  }
+
+  &-delete {
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 9999;
+    &:hover {
+      border-color: $color-danger;
+    }
+  }
+
+  &-input {
+    margin-top: 8px;
+  }
+
+}

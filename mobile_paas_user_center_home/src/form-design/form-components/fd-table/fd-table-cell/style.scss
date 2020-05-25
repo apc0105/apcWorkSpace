@@ -1,0 +1,11 @@
+@import 'src/styles/const.scss';
+
+.fd-form-table-cell {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+  .el-form-item {
+    margin: 0 !important;
+  }
+}

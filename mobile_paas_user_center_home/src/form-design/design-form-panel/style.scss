@@ -1,0 +1,43 @@
+@import 'src/styles/const.scss';
+
+.design-form {
+  .el-form-item {
+    .el-input, .el-textarea, .el-input-number {
+      width: 100%;
+      min-width: 0px;
+      max-width: 1000px;
+    }
+    .el-input-number .el-input {
+      width: 100%;
+      min-width: 0px;
+    }
+  }
+
+  .el-form-item__label {
+    padding-left: 12px;
+  }
+
+  .el-form-item__content {
+    display: block;
+  }
+
+  &-pc {
+    .form-el {
+      position: relative;
+      & > .fd-form-layout,
+      & > .el-form-item {
+        width: 100% !important;
+        display: inline-block !important;
+      }
+    }
+  }
+  &-mobile {
+    .form-el {
+      & > .fd-form-layout,
+      & > .el-form-item {
+        width: 100% !important;
+        display: inline-block !important;
+      }
+    }
+  }
+}

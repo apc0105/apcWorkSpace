@@ -1,0 +1,10 @@
+@import 'src/styles/const.scss';
+
+.form-design-body {
+  overflow: hidden;
+}
+
+.form-design-body .el-tabs__content {
+  height: calc(100% - 42px);
+  overflow: auto;
+}

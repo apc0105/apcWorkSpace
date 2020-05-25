@@ -1,0 +1,21 @@
+@import 'src/styles/const.scss';
+
+.form-design-props .form-el .expression-panel .el-form-item {
+  margin-bottom: 16px !important;
+}
+
+.expression-panel {
+  .expression-item {
+    margin: 4px 16px 4px 0;
+    cursor: pointer;
+    &.disabled {
+      cursor: not-allowed;
+      background-color: #f4f4f5;
+      border-color: #e9e9eb;
+      color: #909399;
+    }
+  }
+  .expression-display{
+
+  }
+}

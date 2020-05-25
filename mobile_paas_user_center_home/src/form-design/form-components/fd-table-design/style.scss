@@ -1,0 +1,70 @@
+@import 'src/styles/const.scss';
+
+.fd-form-table {
+  box-sizing: border-box;
+
+  &.el-form-item,
+  & .el-form-item {
+    margin: 0 !important;
+  }
+
+  .fd-form-table-cell {
+    position: relative;
+    cellspacing: 0;
+    cellpadding: 0;
+    border-spacing: 0;
+    padding: 0 !important;
+    vertical-align: middle;
+    .cell {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: block !important;
+      width: 100%;
+      min-height: 36px;
+      line-height: 36px;
+    }
+  }
+  th {
+    cellspacing: 0;
+    cellpadding: 0;
+    border-spacing: 0;
+    padding: 0 !important;
+  }
+
+  .is-error.el-form-item--mini {
+    min-height: 34px;
+  }
+  .is-error.el-form-item--small {
+    min-height: 38px;
+  }
+  .is-error.el-form-item--medium {
+    min-height: 44px;
+  }
+  .is-error.el-form-item--large {
+    min-height: 48px;
+  }
+}
+
+.fd-form-table-inner {
+  height: 100%;
+}
+
+.fd-form-table-operators {
+  height: 28px;
+  line-height: 28px;
+  vertical-align: middle;
+}
+
+.fd-form-table-operator {
+  display: inline-block;
+  padding: 4px 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 28px;
+  line-height: 28px;
+  i {
+    color: $background-blur;
+    font-size: 20px;
+  }
+}
+

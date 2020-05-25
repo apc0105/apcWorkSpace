@@ -1,0 +1,36 @@
+@import 'src/styles/const.scss';
+
+.form-props-object {
+  text-align: left;
+}
+
+.form-props-panel {
+  padding-top: 10px;
+}
+
+.form-props-title {
+  line-height: 37px;
+  font-size: 14px;
+  padding-left: 8px;
+  border-bottom: 1px solid #dddddd;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.form-props-explain {
+  padding-right: 8px;
+}
+
+.form-props-panel {
+  display: none;
+  padding-top: 16px;
+  &.active {
+    display: block;
+  }
+}
+
+.form-props-delete {
+  padding-right: 8px;
+  color: $color-danger;
+  cursor: pointer;
+}

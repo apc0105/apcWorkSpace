@@ -1,0 +1,14 @@
+@import 'src/styles/const.scss';
+
+.fd-form-layout {
+  min-height: 36px;
+  &.el-form-item,
+  & .el-form-item {
+    margin: 0 !important;
+  }
+}
+
+.fd-form-layout-inner {
+  height: 100%;
+}
+

@@ -1,0 +1,33 @@
+@import 'src/styles/const.scss';
+
+.fd-form-grid {
+  min-height: 50px;
+  &.el-form-item {
+    margin: 0 !important;
+  }
+  .fd-form-grid-cell {
+    .el-form-item {
+      margin: 0 !important;
+    }
+  }
+}
+
+.fd-form-grid-inner {
+  height: 100%;
+}
+
+.fd-form-grid-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  //table-layout: fixed;
+}
+
+.design-form-mobile .fd-form-grid-table td,
+.design-form-mobile .fd-form-grid-table tr {
+  display: block;
+  min-width: 100%;
+  margin: -1px 0;
+  border-left: none;
+  border-right: none;
+}

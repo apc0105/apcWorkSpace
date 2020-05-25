@@ -1,0 +1,171 @@
+.user_info {
+  background: url(../assets/home-user-bg.jpg) left repeat;
+  height: 180px;
+  width: 100%;
+  background-size: contain;
+
+  .user_info_info {
+    float: left;
+    margin-left: 20px;
+
+    h2 {
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 7px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #fff;
+
+      span {
+        margin-left: 40px;
+        display: inline-block;
+        background: url(../assets/phone.png) left center no-repeat;
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .login_info {
+    margin-top: 5px;
+  }
+
+  .login_num {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 9px;
+    padding-left: 150px;
+    display: block;
+  }
+}
+.remind::-webkit-scrollbar { width: 0 !important }
+.count_card::-webkit-scrollbar { width: 0 !important }
+
+.remind {
+  // margin-top: 9px;
+  margin-bottom: 0;;
+  li {
+    width: 48%;
+    float: left;
+    line-height: 28px;
+    &:nth-child(even) {
+      margin-left: 4%;
+    }
+    a {
+      display: inline-block;
+      width: 100%;
+      // padding-top: 10px;
+      p {
+        font-size: 12px;
+        color: #000;
+        float: left;
+        margin-left: 10px;
+        margin-bottom:0;
+      }
+
+      span {
+        float: right;
+        margin-right: 10px;
+        color: #666666;
+        font-size: 11px;
+      }
+      &:hover {
+        background: #f5f5f5;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.user_info_detail {
+  // float: left;
+  margin-left: 2px;
+  margin-top: 25px;
+  line-height: 38px;
+  h2 {
+    color: #364658;
+    // font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 13px;
+    color: #222;
+    white-space:nowrap;
+    margin-bottom: 10px;
+    label {
+      font-size: 14 px;
+      color: #7f7f7f;
+    }
+  }
+
+  span {
+    // font-size: 12px;
+    color: #7f7f7f;
+    background: url(../assets/phone1.png) left center no-repeat;
+    padding-left: 15px;
+  }
+}
+
+.home-title {
+  font-size: 14px;
+  color: #222;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #04c0dd;
+    margin-top: 5px;
+  }
+}
+
+.home_apply {
+  li {
+    float: left;
+
+    a {
+      display: block;
+      width: 90px;
+      height: 94px;
+
+      &:hover,
+      &.on {
+        background: #3ca0f7;
+
+        .icon-font-info,
+        p {
+          color: #fff;
+        }
+      }
+
+      .icon-font-info {
+        margin: 0 auto 15px;
+        display: block;
+        padding-top: 17px;
+      }
+
+      p {
+        text-align: center;
+        color: #666;
+      }
+    }
+  }
+}
+
+.home_recommend {
+  display: block;
+  background: url(../assets/ks.png) left 20px center no-repeat #f8f9fb;
+  text-indent: 55px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  &:nth-child(2) {
+    margin-top: 24px;
+  }
+}

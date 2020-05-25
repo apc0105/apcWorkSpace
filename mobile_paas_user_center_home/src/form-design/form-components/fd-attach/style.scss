@@ -1,0 +1,7 @@
+@import 'src/styles/const.scss';
+
+.attach-upload-disabled {
+  .el-upload {
+    display: none;
+  }
+}

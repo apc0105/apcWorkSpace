@@ -1,0 +1,41 @@
+@import 'src/styles/const.scss';
+
+$border-color: #999999;
+$border-color2: #e0e0e0;
+
+.fd-form-sign-drawer-bg {
+  border-bottom: 1px dashed $border-color;
+  border-right: 1px dashed $border-color;
+  position: relative;
+  overflow: hidden;
+}
+
+.fd-form-sign-drawer-bgx {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  height: 1px;
+  border-bottom: 1px dashed $border-color2;
+}
+
+.fd-form-sign-drawer-bgy, .fd-form-sign-drawer-bgp, .fd-form-sign-drawer-bgl {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 50%;
+  width: 1px;
+  border-left: 1px dashed $border-color2;
+}
+
+.fd-form-sign-drawer-bgp {
+  top: -50%;
+  bottom: -50%;
+  transform: rotate(45deg);
+}
+
+.fd-form-sign-drawer-bgl {
+  top: -50%;
+  bottom: -50%;
+  transform: rotate(-45deg);
+}

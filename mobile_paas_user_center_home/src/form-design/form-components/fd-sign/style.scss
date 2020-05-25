@@ -1,0 +1,82 @@
+@import 'src/styles/const.scss';
+
+$border-color: #999999;
+.fd-form-sign {
+  position: relative;
+  display: inline-block;
+  &-tip {
+    content: '请签名';
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    color: $text-second;
+    border: 1px dashed $border-color;
+  }
+  &-drawer {
+    border-top: 1px dashed $border-color;
+    border-left: 1px dashed $border-color;
+    background-color: #ffffff;
+    position: relative;
+  }
+  &-drawerbg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+  }
+  &-canvas {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
+}
+
+.fd-form-sign-item {
+  border-bottom: 1px dashed rgba(200, 200, 200, 0.3);
+  padding: 8px 0px;
+}
+
+.fd-form-sign-image {
+  margin-bottom: 0;
+  vertical-align: middle;
+  //border: 1px dashed $border-color;
+}
+
+.fd-form-sign-box {
+  text-align: right;
+  vertical-align: bottom;
+  margin-left: 8px;
+  margin-top: -8px;
+}
+
+.fd-form-sign-comment {
+  line-height: 24px;
+  padding-left: 16px;
+  font-size: 16px;
+  color: $text-primary;
+  font-weight: 600;
+}
+
+.fd-form-sign-datetime {
+  line-height: 16px;
+}
+
+.fd-form-sign-comment-input {
+  margin-top: -20px;
+}
+
+.fd-form-sign-add {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  cursor: pointer;
+  color: $color-danger;
+}

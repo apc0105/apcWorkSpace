@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182 74"><defs><style>.cls-1 {
+	fill: #54d663;
+	stroke: #21892e;
+	stroke-miterlimit: 10;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+}
+
+.cls-2 {
+	font-size: 24px;
+	fill: #333;
+	font-family: PingFangSC-Regular-GBpc-EUC-H, PingFang SC;
+}
+
+</style></defs><title>rectangle1</title><g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1"><path class="cls-1" d="M10.82,1H171.18C176.6,1,181,6.37,181,13V61c0,6.63-4.4,12-9.82,12H10.82C5.4,73,1,67.63,1,61V13C1,6.37,5.4,1,10.82,1Z"/><text class="cls-2" transform="translate(67 44.54)">抄送</text></g></g></svg>
